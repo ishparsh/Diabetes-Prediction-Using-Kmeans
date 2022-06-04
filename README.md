@@ -17,4 +17,3 @@ HOW IT WORKS ?
 
 In the beginning, the algorithm chooses k centroids in the dataset randomly after shuffling the data. Then it calculates the distance of each point to each centroid using the euclidean distance calculation method. Each centroid assigned represents a cluster and the points are assigned to the closest cluster. At the end of the first iteration, the centroid values are recalculated, usually taking the arithmetic mean of all points in the cluster.  In every iteration, new centroid values are calculated until successive iterations provide the same centroid value. 
 
-[Read More  ...](https://aihubprojects.com/k-means-clustering-from-scratch-python/)
